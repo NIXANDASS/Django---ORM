@@ -17,20 +17,11 @@ Include your ER diagram here
 
 
 ## PROGRAM
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py createsuperuser
-Username: admin
-Email address: admin@example.com
-Password:
-Password (again):
 
 
 
 
 ## OUTPUT
-
-![Screenshot (35)](https://user-images.githubusercontent.com/118781418/211458875-f66332bd-9933-4bd6-bff8-81a6dd512280.png)
 
 
 ## RESULT
