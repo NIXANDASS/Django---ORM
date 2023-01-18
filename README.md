@@ -10,10 +10,14 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:To create admin account enter the following command to create a superuser:
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
 
 ### STEP 2:Add the username and email for the superuser
 
-### STEP 3:The next prompt in the shell is for your password. Add a strong password and press the Enter key to confirm it once again:
+### STEP 3:The next prompt in the shell is for your password. Add a strong password and press the Enter key to confirm it once again
+superuser is created successfully.
 
 
 ## PROGRAM
@@ -44,3 +48,4 @@ admin.site.register(Employee,EmployeeAdmin)
 
 
 ## RESULT
+
