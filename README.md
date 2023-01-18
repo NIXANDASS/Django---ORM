@@ -17,7 +17,8 @@ Include your ER diagram here
 
 
 ## PROGRAM
-'''models.py
+'''
+models.py
 
 from django.db import models
 from django.contrib import admin
@@ -34,7 +35,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 admin.py
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
-admin.site.register(Employee,EmployeeAdmin)'''
+admin.site.register(Employee,EmployeeAdmin)
+'''
 
 
 
