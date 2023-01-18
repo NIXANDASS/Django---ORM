@@ -17,9 +17,9 @@ Include your ER diagram here
 
 
 ## PROGRAM
-models.py
+'''models.py
 
-'''from django.db import models
+from django.db import models
 from django.contrib import admin
 class Employee (models.Model):
     eid=models.CharField(max_length=20,help_text="Employee ID")
@@ -29,10 +29,10 @@ class Employee (models.Model):
     email=models.EmailField()
 
 class EmployeeAdmin(admin.ModelAdmin):
-    list_display=('eid','name','salary','age','email')'''
+    list_display=('eid','name','salary','age','email')
 
 admin.py
-'''from django.contrib import admin
+from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)'''
 
