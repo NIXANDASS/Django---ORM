@@ -46,7 +46,8 @@ admin.site.register(Employee,EmployeeAdmin)
 
 ## OUTPUT
 
-![Screenshot (35)](https://user-images.githubusercontent.com/118781418/213214625-a4001d5e-3136-451b-82c7-35b3f39b3c9d.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/118781418/213216706-d6c3eb7a-48b2-490c-8e1a-76a21d04592d.png)
+
 
 ## RESULT
 PROGRAM WAS EXECUTED SUCCESSFULLY
